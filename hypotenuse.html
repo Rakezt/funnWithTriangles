@@ -6,19 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hypotenuse | NeogCamp Assignment</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Calculate hypotenuse of triangle</h1>
+    <div class="nav-container">
+        <nav class="navigation ">
+            <div class="nav-brand">fun with Triangles</div>
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-item-inline"><a class="link" href="isTriangle.html">triangle</a></li>
+                <li class="list-item-inline"><a class="link" href="quizTriangle.html">quiz</a></li>
+                <li class="list-item-inline"><a class="link link-active" href="hypotenuse.html">hypotenuse</a></li>
+                <li class="list-item-inline"><a class="link" href="area.html">area</a></li>
+            </ul>
+        </nav>
+    </div>
     <div class="container">
+        <h1>Calculate hypotenuse of triangle</h1>
+        <p>Enter the 2 sides of a triangle, to find out the length of hypotenuse</p>
         <label for="length">length 1</label>
-        <input class="length" type="number">
+        <input class="length lining" type="number">
         <label for="length">length 2</label>
-        <input class="length" type="number">
+        <input class="length lining" type="number">
         <button id="calculate-btn">calculate hypotenuse</button>
         <div id="hypotenuse-output"></div>
-
     </div>
+    <footer class="footer">
+        <div class="footer-header">&copy | Yoursweetnightmare</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline" ><a class="link" href="https://github.com/Rakezt">github</a> </li>
+            <li class="list-item-inline" ><a class="link" href="https://app.netlify.com/teams/rakezt-kpd99xk/overview">netlify</a></li>
+            <li class="list-item-inline" ><a class="link" href="https://www.linkedin.com/feed/">linkedin</a></li>
+        </ul>
+        </footer>
     <script src="hypotenuse.js"></script>
 
 </body>
