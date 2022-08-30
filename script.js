@@ -3,7 +3,7 @@ var submitButton=document.querySelector("#submit-btn")
 var quizScore=document.querySelector("#quizScore")
 
 var correctAnswer=[ "90°",
-"right angled",
+"Right-angled",
 "one right angle",
 "12, 16, 20",
 "Equilateral triangle",
