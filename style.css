@@ -108,3 +108,8 @@ button{
 .footer ul{
     padding-inline-start: 0px;
 }
+.quiz-form{
+    margin: 2rem 5rem;
+    text-align: left;
+    color: var(--off-white);
+}
